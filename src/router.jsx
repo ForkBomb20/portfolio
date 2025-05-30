@@ -65,4 +65,6 @@ export const router = createBrowserRouter([
       { path: "contact", element: <Contact /> },
     ],
   },
-]);
+], {
+  basename: "/portfolio" // Add this basename option
+});
