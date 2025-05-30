@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import CubicRegression from "../animations/Regression";
+import pythonIcon from "../icons/python.png";
 
 export default function Home() {
   const [scrollY, setScrollY] = useState(0);
@@ -78,7 +79,7 @@ export default function Home() {
                   <h3 className="text-xs sm:text-sm font-semibold text-[#AA74E6] mb-4 md:mb-6 tracking-wider uppercase text-center">Tech Stack</h3>
                   <div className="flex flex-wrap gap-3 sm:gap-4 justify-center">
                     <div className="flex flex-col items-center group hover:scale-110 transition-transform duration-200">
-                      <img src="/icons/python.png" alt="Python" className="w-8 h-8 sm:w-10 sm:h-10 object-contain" />
+                      <img src={`${import.meta.env.BASE_URL}icons/python.png`} alt="Python" className="w-8 h-8 sm:w-10 sm:h-10 object-contain" />
                       <span className="text-xs text-gray-300 mt-1 group-hover:text-white transition-colors duration-200">Python</span>
                     </div>
                     <div className="flex flex-col items-center group hover:scale-110 transition-transform duration-200">
