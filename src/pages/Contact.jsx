@@ -164,7 +164,7 @@ export default function Contact() {
                 <h3 className="text-xl font-bold text-white mb-4">Academic Documents</h3>
                 <div className="space-y-3">
                   <a 
-                    href="/resume.pdf" 
+                    href="/portfolio/resume.pdf" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 bg-white/10 rounded-lg p-3 hover:bg-white/20 transition-all duration-300 group"
@@ -361,7 +361,7 @@ export default function Contact() {
               Get In Touch
             </a>
             <a 
-              href="/resume.pdf"
+              href="/portfolio/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-gray-900 font-semibold py-3 px-8 rounded-lg transition-all duration-300 inline-flex items-center justify-center gap-2"

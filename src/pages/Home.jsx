@@ -164,12 +164,12 @@ export default function Home() {
             Dive deeper into my journey in machine learning and data science.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/projects">
+            <a href="/portfolio/projects">
               <button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-semibold py-3 px-6 md:px-8 rounded-lg transition-all duration-300 transform hover:scale-105 text-sm md:text-base">
                 View Projects
               </button>
             </a>
-            <a href="/contact">
+            <a href="/portfolio/contact">
               <button className="border-2 border-white text-white hover:bg-white hover:text-gray-900 font-semibold py-3 px-6 md:px-8 rounded-lg transition-all duration-300 text-sm md:text-base">
                 Contact Me
               </button>
