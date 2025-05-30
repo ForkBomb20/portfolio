@@ -11,7 +11,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
     { path: "/", label: "Home", icon: "🏠" },
     { path: "/education", label: "Education", icon: "🎓" },
     { path: "/projects", label: "Projects", icon: "💻" },
-    { path: "/achievements", label: "Achievements", icon: "🏆" },
+    { path: "/employment", label: "Employment", icon: "📊" },
     { path: "/contact", label: "Contact", icon: "📧" },
   ];
 

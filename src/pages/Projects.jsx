@@ -613,9 +613,13 @@ export default function Projects() {
             >
               View on GitHub
             </a>
-            <button className="border-2 border-white text-white hover:bg-white hover:text-gray-900 font-semibold py-3 px-8 rounded-lg transition-all duration-300">
+            <a
+              href="/contact"
+              className="border-2 border-white text-white hover:bg-white hover:text-gray-900 font-semibold py-3 px-8 rounded-lg transition-all duration-300 text-center inline-block"
+            >
               Get in Touch
-            </button>
+            </a>
+
           </div>
         </div>
       </section>

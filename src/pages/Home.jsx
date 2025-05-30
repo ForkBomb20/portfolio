@@ -94,8 +94,8 @@ export default function Home() {
                       <span className="text-xs text-gray-300 mt-1 group-hover:text-white transition-colors duration-200">React</span>
                     </div>
                     <div className="flex flex-col items-center group hover:scale-110 transition-transform duration-200">
-                      <img src="/icons/tensorflow.png" alt="TensorFlow" className="w-8 h-8 sm:w-10 sm:h-10 object-contain" />
-                      <span className="text-xs text-gray-300 mt-1 group-hover:text-white transition-colors duration-200">TensorFlow</span>
+                      <img src="/icons/cpp.png" alt="TensorFlow" className="w-8 h-8 sm:w-10 sm:h-10 object-contain" />
+                      <span className="text-xs text-gray-300 mt-1 group-hover:text-white transition-colors duration-200">C++</span>
                     </div>
                     <div className="flex flex-col items-center group hover:scale-110 transition-transform duration-200">
                       <img src="/icons/sql.png" alt="SQL" className="w-8 h-8 sm:w-10 sm:h-10 object-contain" />
@@ -164,12 +164,16 @@ export default function Home() {
             Dive deeper into my journey in machine learning and data science.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-semibold py-3 px-6 md:px-8 rounded-lg transition-all duration-300 transform hover:scale-105 text-sm md:text-base">
-              View Projects
-            </button>
-            <button className="border-2 border-white text-white hover:bg-white hover:text-gray-900 font-semibold py-3 px-6 md:px-8 rounded-lg transition-all duration-300 text-sm md:text-base">
-              Contact Me
-            </button>
+            <a href="/projects">
+              <button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-semibold py-3 px-6 md:px-8 rounded-lg transition-all duration-300 transform hover:scale-105 text-sm md:text-base">
+                View Projects
+              </button>
+            </a>
+            <a href="/contact">
+              <button className="border-2 border-white text-white hover:bg-white hover:text-gray-900 font-semibold py-3 px-6 md:px-8 rounded-lg transition-all duration-300 text-sm md:text-base">
+                Contact Me
+              </button>
+            </a>
           </div>
         </div>
       </section>

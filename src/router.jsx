@@ -5,8 +5,8 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Education from "./pages/Education";
 import Projects from "./pages/Projects";
-// import Achievements from "./pages/Achievements";
-// import Contact from "./pages/Contact";
+import Employment from "./pages/Employment";
+import Contact from "./pages/Contact";
 
 const RootLayout = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -61,8 +61,8 @@ export const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "education", element: <Education /> },
       { path: "projects", element: <Projects /> },
-    //   { path: "achievements", element: <Achievements /> },
-    //   { path: "contact", element: <Contact /> },
+      { path: "employment", element: <Employment /> },
+      { path: "contact", element: <Contact /> },
     ],
   },
 ]);
