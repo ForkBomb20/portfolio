@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import CubicRegression from "../animations/Regression";
-import pythonIcon from "../icons/python.png";
 
 export default function Home() {
   const [scrollY, setScrollY] = useState(0);
