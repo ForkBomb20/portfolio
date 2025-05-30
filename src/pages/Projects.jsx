@@ -343,7 +343,7 @@ export default function Projects() {
       status: "In Progress",
       media: {
         type: "image",
-        src: "/projects/etf.png"
+        src: `${import.meta.env.BASE_URL}projects/etf.png`
       }
     },
     {
@@ -360,7 +360,7 @@ export default function Projects() {
       github: "https://github.com/ForkBomb20/MHACK16-DEMO",
       media: {
         type: "image",
-        src: "/projects/eduai.jpeg"
+        src: `${import.meta.env.BASE_URL}projects/eduai.jpeg`
       }
     },
     {
