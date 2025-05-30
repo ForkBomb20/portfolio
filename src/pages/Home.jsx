@@ -82,23 +82,23 @@ export default function Home() {
                       <span className="text-xs text-gray-300 mt-1 group-hover:text-white transition-colors duration-200">Python</span>
                     </div>
                     <div className="flex flex-col items-center group hover:scale-110 transition-transform duration-200">
-                      <img src="/icons/pytorch.png" alt="PyTorch" className="w-8 h-8 sm:w-10 sm:h-10 object-contain" />
+                      <img src={`${import.meta.env.BASE_URL}icons/pytorch.png`} alt="PyTorch" className="w-8 h-8 sm:w-10 sm:h-10 object-contain" />
                       <span className="text-xs text-gray-300 mt-1 group-hover:text-white transition-colors duration-200">PyTorch</span>
                     </div>
                     <div className="flex flex-col items-center group hover:scale-110 transition-transform duration-200">
-                      <img src="/icons/js.png" alt="JavaScript" className="w-8 h-8 sm:w-10 sm:h-10 object-contain" />
+                      <img src={`${import.meta.env.BASE_URL}icons/js.png`} alt="JavaScript" className="w-8 h-8 sm:w-10 sm:h-10 object-contain" />
                       <span className="text-xs text-gray-300 mt-1 group-hover:text-white transition-colors duration-200">JavaScript</span>
                     </div>
                     <div className="flex flex-col items-center group hover:scale-110 transition-transform duration-200">
-                      <img src="/icons/react.png" alt="React" className="w-8 h-8 sm:w-10 sm:h-10 object-contain" />
+                      <img src={`${import.meta.env.BASE_URL}icons/react.png`} alt="React" className="w-8 h-8 sm:w-10 sm:h-10 object-contain" />
                       <span className="text-xs text-gray-300 mt-1 group-hover:text-white transition-colors duration-200">React</span>
                     </div>
                     <div className="flex flex-col items-center group hover:scale-110 transition-transform duration-200">
-                      <img src="/icons/cpp.png" alt="TensorFlow" className="w-8 h-8 sm:w-10 sm:h-10 object-contain" />
+                      <img src={`${import.meta.env.BASE_URL}icons/cpp.png`} alt="TensorFlow" className="w-8 h-8 sm:w-10 sm:h-10 object-contain" />
                       <span className="text-xs text-gray-300 mt-1 group-hover:text-white transition-colors duration-200">C++</span>
                     </div>
                     <div className="flex flex-col items-center group hover:scale-110 transition-transform duration-200">
-                      <img src="/icons/sql.png" alt="SQL" className="w-8 h-8 sm:w-10 sm:h-10 object-contain" />
+                      <img src={`${import.meta.env.BASE_URL}icons/sql.png`} alt="SQL" className="w-8 h-8 sm:w-10 sm:h-10 object-contain" />
                       <span className="text-xs text-gray-300 mt-1 group-hover:text-white transition-colors duration-200">SQL</span>
                     </div>
                   </div>
