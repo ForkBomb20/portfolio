@@ -25,7 +25,7 @@ export default function Employment() {
       ],
       impact: "Gained exposure to cutting-edge AI research and startup strategies; strengthened technical knowledge and entrepreneurial mindset while building a high-caliber professional network in the AI space.",
       skills: ["Leadership", "Startup Strategy", "Networking", "Professional Development"],
-      logo: "/icons/y_combinator.png"
+      logo: `${import.meta.env.BASE_URL}icons/y_combinator.png`
     },
     {
       employer: "University of Michigan Transportation Research Institute",
@@ -38,7 +38,7 @@ export default function Employment() {
       ],
       impact: "Advanced the state of scalable Federated Learning by enabling more efficient model updates in bandwidth-constrained environments; contributed to research with potential for publication and real-world deployment in decentralized systems",
       skills: ["Data Analysis", "Python", "PyTorch", "Research Methods", "Academic Writing", "Federated Learning", "Algorithm Design"],
-      logo: "/icons/umtri.png"
+      logo: `${import.meta.env.BASE_URL}icons/umtri.png`
     },
     {
       employer: "Nuclear Engineering and Radiological Sciences | University of Michigan",
@@ -51,7 +51,7 @@ export default function Employment() {
       ],
       impact: "Advanced considereations in community consultation and engagement in the design of fusion energy systems; contributed to research with potential for publication and real-world impact in the field of nuclear engineering",
       skills: ["Data Analysis", "Python", "Research Methods", "Academic Writing", "Public Speaking", "Community Engagement"],
-      logo: "/icons/ners.png"
+      logo: `${import.meta.env.BASE_URL}icons/ners.png`
     },
     {
         employer: "Graph Academy",
@@ -64,7 +64,7 @@ export default function Employment() {
         ],
         impact: "Improved system performance and security infrastructure in a fast-paced startup environment; delivered tangible gains in speed and reliability for customer-facing tools",
         skills: ["Full-Stack Development", "APIs", "Security", "Database Management", "Collaboration", "Optimization"],
-        logo: "/icons/graph-academy.jpeg"
+        logo: `${import.meta.env.BASE_URL}icons/graph-academy.jpeg`
       }
       
   ];
