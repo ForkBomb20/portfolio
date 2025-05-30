@@ -58,7 +58,7 @@ export default function Education() {
             {/* Static University Logo in upper right area */}
             <div className="absolute -top-4 -right-4 w-40 h-40">
               <img
-                src="/icons/blockm.png"
+                src={`${import.meta.env.BASE_URL}icons/blockm.png`}
                 alt="University Logo"
                 className="w-full h-full object-contain"
               />
