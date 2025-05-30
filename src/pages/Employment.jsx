@@ -115,6 +115,7 @@ export default function Employment() {
                     className="w-full h-full object-cover rounded-full"
                   />
                 </div>
+                
 
                 <div className="grid lg:grid-cols-2 gap-8">
                   {/* Left Column - Basic Info */}
