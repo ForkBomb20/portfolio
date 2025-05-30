@@ -614,7 +614,7 @@ export default function Projects() {
               View on GitHub
             </a>
             <a
-              href="/portfolio/contact"
+              href={`${import.meta.env.BASE_URL}contact`}
               className="border-2 border-white text-white hover:bg-white hover:text-gray-900 font-semibold py-3 px-8 rounded-lg transition-all duration-300 text-center inline-block"
             >
               Get in Touch
