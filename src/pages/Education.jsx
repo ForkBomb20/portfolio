@@ -55,12 +55,12 @@ export default function Education() {
             {/* Left Column - Institution & Academic Stats */}
             <div className="space-y-6">
             <div className="bg-black/40 backdrop-blur-sm rounded-lg p-6 border border-gray-700 relative overflow-visible">
-            {/* Static University Logo in upper right area */}
-            <div className="absolute -top-4 -right-4 w-40 h-40">
+            {/* Dynamic University Logo - responsive sizing */}
+            <div className="absolute -top-2 -right-2 sm:-top-4 sm:-right-4 w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40">
               <img
                 src={`${import.meta.env.BASE_URL}icons/blockm.png`}
                 alt="University Logo"
-                className="w-full h-full object-contain"
+                className="w-full h-full object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
               />
             </div>
 
